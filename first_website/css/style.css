@@ -8,3 +8,11 @@ p {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+div {
+    background: blueviolet;
+    width: 500px;
+
+}
+span { 
+    color: chartreuse;
+}
