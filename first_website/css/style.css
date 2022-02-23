@@ -1,3 +1,4 @@
+/* CSS comment*/
 body {
 background-color:rgb(165, 165, 165); 
 color: black;
@@ -20,3 +21,17 @@ span {
 .bottom-section {background: cornsilk;}
 .intro {font-size: 40px;}
 .highlight {background-color: blue;}
+/* BOX
+margin - empty space outside box
+border 
+padding - empty space inside box*/
+.box {background: blueviolet;
+width: 300px;
+margin: 50px;
+border-width: 10px;
+border-color: black;
+border-style: double;
+padding: 50px;
+padding-left: 150px;
+padding: 150px 50px 150px 50px
+}
