@@ -1,4 +1,7 @@
 /* CSS comment*/
+/* ORDER 
+- THE ONE THAT IS BEHIND IN CODE WINS
+- Specicify calculator CSS*/
 body {
 background-color:rgb(165, 165, 165); 
 color: black;
@@ -17,7 +20,8 @@ div {
 span { 
     color: chartreuse;
 }
-.top-section {background: chocolate;}
+.top-section {background: lightblue;
+padding: 20px}
 .bottom-section {background: cornsilk;}
 .intro {font-size: 40px;}
 .highlight {background-color: blue;}
@@ -41,3 +45,33 @@ background img
 /* Text style CSS
 font family stacks*/
 
+/* link editing
+THIS IS EXACT ORDER HOW THEY SHOULD GO */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:visited {
+    color: brown
+}
+a:active {
+    color: royalblue;
+}
+/*Selector*/
+
+.bottom-section p {
+    color: red;
+}
+
+.bottom-section a {
+    color:purple
+}
+.bottom-section a:hover {
+    color: red;
+}
