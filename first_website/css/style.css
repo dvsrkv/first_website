@@ -24,14 +24,20 @@ span {
 /* BOX
 margin - empty space outside box
 border 
-padding - empty space inside box*/
-.box {background: blueviolet;
-width: 300px;
-margin: 50px;
-border-width: 10px;
-border-color: black;
-border-style: double;
-padding: 50px;
-padding-left: 150px;
-padding: 150px 50px 150px 50px
+padding - empty space inside box 
+background img
+*/
+.box {width: 300px;
+    margin: 50px;
+    border-width: 10px;
+    border-color: black;
+    border-style: double;
+    padding: 50px;
+    padding-left: 150px;
+    padding: 300px 150px 300px 300px; 
+    background-image: url(../img/dog.jpeg);
+    background-repeat: repeat-y;
 }
+/* Text style CSS
+font family stacks*/
+
