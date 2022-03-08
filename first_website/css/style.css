@@ -75,3 +75,18 @@ a:active {
 .bottom-section a:hover {
     color: red;
 }
+
+/* Lists */
+ol {
+    list-style-type:decimal
+}
+ul{
+
+    list-style-image: url(../img/dog.jpeg);
+    background-color: brown;
+}
+
+ul li {
+    background-color: cornflowerblue;
+    margin: 5px;
+}
